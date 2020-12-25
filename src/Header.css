@@ -1,0 +1,84 @@
+/* Basic styling */
+* {
+  font-family: sans-serif;
+}
+
+/* Header top styling */
+.top-header-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #efeff0;
+  color: #66676e;
+  font-size: 12px;
+  font-weight: 700;
+  height: 30px;
+}
+
+/*logo container styling */
+.logo-container {
+  padding-top: 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px 0 100px;
+}
+.header-icons {
+  display: flex;
+}
+.login {
+  margin-right: 5px;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+}
+.wishlist {
+  margin-right: 5px;
+  background-color: black;
+  height: 40px;
+  width: 40px;
+}
+.cart {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+/* nav bar styling */
+.nav-bar{
+  height: 45px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 100px;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: inline-block;
+  color: black;
+  padding: 14px 20px 14px 0;
+  text-decoration: none;
+  font-size: 14px;
+  
+}
+.nav-bar form{
+  float: right;
+  margin-right: 100px;
+}
+.nav-bar form{
+  height: 100%;
+  padding-top: 5px;
+}
+.nav-bar input{
+  height: 40px;
+  
+}
